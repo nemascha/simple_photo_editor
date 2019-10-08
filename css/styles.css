@@ -1,0 +1,39 @@
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex; 
+	flex-direction: column;
+    justify-content: center;
+	background-color: #2F4F4F;
+}
+
+.main-container {
+	display: flex;
+	max-width: 80vw;
+	max-height: 80vh;
+	background-color: #2F4F4F;
+	margin: 3% auto;
+	padding: 5px
+	position: absolute;
+}
+
+.photo-container {
+	display: block;
+}
+
+.rotate-clip-buttons {
+	display: flex;
+    justify-content: space-around;
+	height: 10vh;
+	margin-top: 1%;
+}
+
+.rotate {
+	height: 10vh;
+	width: 7vw;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 16px;
+	border: none;
+	border-radius: 50%;
+	background-color: #708090;
+}
